@@ -1,0 +1,123 @@
+/**
+ * IntelliJ Ultimate Idea inspired theme for Java
+ * Based on IntelliJ's default dark theme.
+ * @author anyishayi
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #dcdcdc; /* Default text color */
+  background: none;
+  text-shadow: none;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: 1em;
+  margin: .5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+  background: #2b2b2b; /* Background for code blocks */
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  background: #3c3f41; /* Background for inline code */
+  color: #dcdcdc; /* Inline code color */
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #808080; /* Comments */
+  font-style: italic;
+}
+
+.token.punctuation {
+  color: #dcdcdc; /* Punctuation */
+}
+
+.token.namespace {
+  opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #cc7832; /* Properties, tags, constants, symbols, and deleted code */
+}
+
+.token.boolean,
+.token.number {
+  color: #6897bb; /* Boolean and numbers */
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #6a8759; /* Selectors, attribute names, strings, characters, builtins, inserted code */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #a9b7c6; /* Operators, entities, URLs, and variables */
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: #ffc66d; /* At-rules, attribute values, functions, and class names */
+}
+
+.token.keyword {
+  color: #cc7832; /* Keywords */
+}
+
+.token.regex,
+.token.important {
+  color: #d24c69; /* Regular expressions and important statements */
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
